@@ -1,0 +1,23 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [153] using StatReload
+INFO:     Started server process [155]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:41742 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:41732 - "GET /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41732 - "GET /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46516 - "GET /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46516 - "GET /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44542 - "OPTIONS /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44542 - "POST /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44542 - "GET /api/decks HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44542 - "GET /api/cards?deck_id=691cff035178b2f1ef102eba HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44542 - "GET /api/cards?deck_id=691cff035178b2f1ef102eba HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44552 - "OPTIONS /api/cards HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44552 - "POST /api/cards HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44552 - "GET /api/cards?deck_id=691cff035178b2f1ef102eba HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44552 - "GET /api/cards?deck_id=691cff035178b2f1ef102eba&due_only=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44552 - "GET /api/cards?deck_id=691cff035178b2f1ef102eba&due_only=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34330 - "OPTIONS /api/review HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34330 - "POST /api/review HTTP/1.1" 200 OK
